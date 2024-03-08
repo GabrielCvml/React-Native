@@ -1,15 +1,16 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import AppNavigation from './src/navigation/AppNavigation'
-import { StyleSheet} from 'react-native'
+import { StyleSheet } from 'react-native';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <AppNavigation></AppNavigation>
+      <AppNavigation />
     </NavigationContainer>
   )
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -18,4 +19,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
 export default App
