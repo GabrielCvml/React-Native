@@ -6,7 +6,7 @@ import { StyleSheet } from 'react-native';
 const App = () => {
   return (
     <NavigationContainer>
-      <AppNavigation />
+      <AppNavigation/>
     </NavigationContainer>
   )
 }
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App
+export default App;
